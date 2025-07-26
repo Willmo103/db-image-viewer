@@ -1,0 +1,16 @@
+[project]
+name = "db-image-viewer"
+version = "0.1.0"
+description = "A utility to query a database and view images from the results as a slideshow."
+authors = [
+    { name = "Will Morris", email = "willmorris103@gmail.com" },
+]
+license = { text = "MIT License" }
+requires-python = ">=3.9"
+dependencies = [
+    "pyqt6",
+    "psycopg[binary]",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/Willmo103/db-image-viewer"
