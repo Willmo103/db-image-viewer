@@ -1,0 +1,15 @@
+{
+  "connections": [],
+  "queries": [],
+  "last_connection": {
+    "type": "postgresql",
+    "host": "localhost",
+    "port": "5432",
+    "dbname": "mydatabase",
+    "user": "postgres"
+  },
+  "last_query": "",
+  "last_image_column": "",
+  "window_geometry": "",
+  "grid_columns": 0
+}

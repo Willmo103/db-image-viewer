@@ -11,7 +11,7 @@ with caching, saved queries, and download functionality.
 import sys
 import sqlite3
 import base64
-import psycopg
+import psycopg2 as psycopg
 import json
 from pathlib import Path
 import hashlib
@@ -47,6 +47,9 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QPixmap, QImage, QAction
 from PyQt6.QtCore import Qt, QSize, QThread, pyqtSignal, QTimer
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class CacheManager:

@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+db_viewer_cache/
+db_viewer_config.json
